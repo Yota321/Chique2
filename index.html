@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chique Magazine</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Chique</h1>
         <div class="hamburger">☰</div>
+        <h1 id="chique-header">Chique</h1>
     </header>
     <nav id="menu">
         <ul>
@@ -19,41 +18,21 @@
             <li><a href="#beauty">In the Issue</a></li>
             <li><a href="#luna">Luna</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><input type="text" id="search-input" placeholder="Search..."></li>
+            <li><div class="light-bulb-icon">💡</div></li>
         </ul>
     </nav>
     <main>
-        <section id="home" class="article">
-            <h2>Welcome to Chique</h2>
-            <img src="images/chique-image1.jpg" alt="Chique Magazine cover">
-            <p>Discover the latest in fashion, beauty, and lifestyle with Chique.</p>
-        </section>
-        <section id="fashion" class="article">
-            <h2>From the Editor</h2>
-            <img src="images/chique-image2.jpg" alt="Fashion trends">
-            <p>Explore the hottest styles of the season.</p>
-        </section>
-        <section id="beauty" class="article">
-            <h2>In the Issue</h2>
-            <img src="images/chique-image3.jpg" alt="Beauty products">
-            <p>Get expert beauty advice and product recommendations.</p>
-        </section>
-        <section id="luna" class="article">
-            <h2>Luna</h2>
-            <img src="images/chique-image4.jpg" alt="Luna lifestyle scene">
-            <p>Embrace the Chique way of life.</p>
-        </section>
-        <section id="gallery" class="gallery">
-            <h2>More from Chique</h2>
-            <div class="gallery-grid">
-                <img src="images/chique-image5.jpg" alt="Chique gallery image 1">
-                <img src="images/chique-image6.jpg" alt="Chique gallery image 2">
-                <img src="images/chique-image7.jpg" alt="Chique gallery image 3">
-                <img src="images/chique-image8.jpg" alt="Chique gallery image 4">
-            </div>
-        </section>
+        <!-- Your existing main content here -->
     </main>
     <footer>
         <p>&copy; 2024 Chique Magazine. All rights reserved.</p>
     </footer>
+    <button id="back-to-top">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>
